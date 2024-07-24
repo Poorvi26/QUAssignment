@@ -138,7 +138,7 @@ Scenario - 05 - DELETE user negative Tests
  - TC - 12 - Verify it should return 401 for authentication failed
  - TC - 13 - Verify it should return 404 for non-existent user
 
-![Result](cypress\screenshots\Result.png)
+![Result](image.png)
 
 
 
