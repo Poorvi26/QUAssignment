@@ -51,6 +51,35 @@ API support -
 
 https://gorest.co.in/
 
+**Setting up GIT**
+
+To set up Git for this project:
+
+1. **Initialize Git Repository**:
+    ```bash
+    git init
+    ```
+2. **Add Files to Git**:
+    ```bash
+    git add .
+    ```
+
+3. **Commit Changes**:
+    ```bash
+    git commit -m "Initial commit"
+    ```
+
+4. **Connect to Remote Repository**:
+    Create a new repository on GitHub and connect your local repository to it:
+    ```bash
+    git remote add origin https://github.com/poorvi26/QUAssignment.git
+    ```
+
+5. **Push Changes to Remote Repository**:
+    ```bash
+    git push -u origin master
+    ```
+
 **Project Structure**
 
 Quattassignment 
@@ -109,7 +138,8 @@ Scenario - 05 - DELETE user negative Tests
  - TC - 12 - Verify it should return 401 for authentication failed
  - TC - 13 - Verify it should return 404 for non-existent user
 
-[cypress\screenshots\Result.png]: cypress\screenshots\Result.png
+![Result](cypress\screenshots\Result.png)
+
 
 
 
